@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+   </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">Eclipta<span>catering</span></div>
+        <div class="navbar-nav">
+          <a href="index.html#hero">Home</a>
+          <a href="index.html#about-us ">About us</a>
+          <a href="index.html#menu-catering">Menu</a>
+          <a href="#testimoni">Review</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="navbar-extra">
+          <a href="#"><img src="icon/search.svg" alt="Search" /></a>
+          <a href="cart.html"><img src="icon/Shopping-cart.svg" alt="Cart" /></a>
+        </div>
+        <div id="hamburger-menu">☰</div>
+      </nav>
+    
+    <div class="container" id="testimoni"></div>
+        <div class="testimonials"> 
+            <div class="testimonial" id="testimonial-1"> <!-- Testi pertama -->
+                <img src="img/bang toyib.jpg" alt="Bang Toyib" class="testimonial-img"> <!-- Muka bang toyib -->
+                <h3>Bang Toyib</h3> <!-- Nama dia -->
+                <p>Enak banget sih wajib coba !!! buat yang belum pernah coba parah sih awokawokawokwokwk</p> <!-- Isi ulasan bang toyib -->
+            </div>
+
+            <div class="testimonial" id="testimonial-2"> <!-- Testi kedua -->
+                <img src="img/om irawan.jpg" alt="Om Irawan" class="testimonial-img"> <!-- Muka om irawan -->
+                <h3>Om Irawan</h3> <!-- Nama dia -->
+                <p>Rekomen banget buat pesen catering disini, dijamin 100% halal, sehat dan bergizi</p> <!-- Isi ulasan om irawan -->
+            </div>
+
+            <div class="testimonial" id="testimonial-3"> <!-- Testi ketiga -->
+                <img src="img/pak budi.jpg" alt="Pak Budi" class="testimonial-img"> <!-- Muka pak budi -->
+                <h3>Pak Budi</h3> <!-- Nama dia -->
+                <p>Ga pernah nyesel pesen disini, udah langganan tiap ada acara.. Ownernya baik hati, ramah, dan tidak sombong</p> <!-- Isi ulasan pak budi -->
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact"> <!-- Kontainer buat formu kontak -->
+        <h3>Contact <span>Us</span></h3> <!-- Judul bagian kontak -->
+        <p>+6285648170852</p> <!-- Nomor wa nya aca -->
+
+        <form action="#" method="post"> <!-- Form buat ngirim pesan, ini nanti menuju ke wa yg di atas -->
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br> <!-- Buat nama -->
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br> <!-- Buat email -->
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea><br> <!-- Buat pesan -->
+            <input type="submit" value="Send Message"> <!-- Tombol kirim -->
+        </form>
+</div>
+
+<div class="map-container"> <!-- Kontainer untuk peta -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151198.217402622!2d112.61127787225617!3d-7.257574870896103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1aa4b3a4eb69%3A0x91f6c5474c6d5b91!2sSurabaya%2C%20East%20Java%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1695716764314!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <!-- Peta Surabaya -->
+</div>   
+
+<!-- Bagian Footer -->
+<footer>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/hmit_its?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <img src="icon/ig.svg" alt="ig" />
+        </a>
+        
+        <a href="https://www.NewsInstitutTeknologiSepuluhNopemberITS/" target="_blank">
+            <img src="icon/fb.svg" alt="fb">
+        </a>
+        <a href="https://wa.me/qr/TZUJCQ2BIKB3G1?text=Halo%20saya%20tertarik%20dengan%20layanan%20Anda" target="_blank">
+            <img src="icon/wa.svg" alt="wa">
+        </a>
+    </div>
+
+    <nav> <!-- Navigasi footer -->
+        <ul>
+            <li><a href="index.html#home"><i class="fas fa-home"></i><span>Home</span></a></li> <!-- Menu Home -->
+            <li><a href="index.html#about-us"><i class="fas fa-info-circle"></i><span>About us</span></a></li> <!-- Menu About Us -->
+            <li><a href="index.html#menu-catering"><i class="fas fa-bars"></i><span>Menu</span></a></li> <!-- Menu Menu -->
+            <li><a href="#testimoni"><i class="fas fa-envelope"></i><span>Review</span></a></li> <!-- Menu Review -->
+            <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li> <!-- Menu Contact -->
+        </ul>
+    </nav>
+    <p>Created by <span class="black-text"><a href="https://github.com/lasturas/pweb-HTML_CSS-P13-2024" target="_blank">Kelompok P13</a></span> @2024</p> <!-- Keterangan pembuat.. kelompok kita -->
+</footer>
+
+</body>
+</html>
