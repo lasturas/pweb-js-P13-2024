@@ -1,0 +1,175 @@
+/* Reset default margin dan padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk keseluruhan body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1a17;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Gaya untuk header */
+header {
+    background: #ffb200;
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+/* Gaya untuk container detail produk */
+.product-detail-container {
+    max-width: 900px; /* Ukuran kotak diperbesar */
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Gaya untuk tombol kembali */
+#back-button {
+    background-color: #ffb200;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#back-button:hover {
+    background-color: #d0d0d0;
+}
+
+/* Gaya untuk container produk */
+.product-info {
+    display: flex; /* Menampilkan gambar dan informasi produk secara horizontal */
+}
+
+/* Gaya untuk gambar produk */
+#product-image {
+    width: 400px; /* Ukuran lebar gambar diperbesar */
+    height: auto; /* Mengatur tinggi otomatis untuk menjaga proporsi */
+    border-radius: 10px;
+    margin-right: 20px; /* Memberikan jarak antara gambar dan detail produk */
+}
+
+/* Gaya untuk detail produk */
+.product-details {
+    flex: 1; /* Membiarkan bagian detail mengambil ruang yang tersisa */
+}
+
+/* Gaya untuk judul produk */
+#product-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk harga dan deskripsi produk */
+#product-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ffb200;;
+}
+
+#product-description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Gaya untuk tombol tambah ke keranjang */
+#add-to-cart-btn {
+    background-color: #ffb200;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#add-to-cart-btn:hover {
+    background-color: #ffb200; /* Warna lebih gelap saat hover */
+}
+
+/* Gaya untuk bagian ulasan */
+/* Gaya untuk bagian ulasan */
+h2 {
+    font-size: 22px;
+    margin: 20px 0 10px;
+}
+
+/* Gaya untuk container ulasan */
+#product-reviews {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Menyusun ulasan secara vertikal */
+}
+
+/* Gaya untuk setiap ulasan */
+.review {
+    background-color: #f9f9f9; /* Warna latar belakang untuk ulasan */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Sudut membulat */
+    padding: 15px; /* Padding di dalam kotak */
+    margin-bottom: 10px; /* Jarak antar ulasan */
+}
+
+/* Gaya untuk nama pengguna */
+.review .reviewer {
+    font-weight: bold; /* Nama pengguna tebal */
+    margin-bottom: 5px; /* Jarak bawah nama pengguna */
+}
+
+/* Gaya untuk teks ulasan */
+.review .review-text {
+    font-size: 16px; /* Ukuran font untuk ulasan */
+}
+
+/* Gaya untuk form ulasan */
+.review-form {
+    display: flex; /* Menampilkan input dan tombol secara horizontal */
+    margin-top: 20px;
+}
+
+/* Gaya untuk input ulasan */
+#review-input {
+    flex: 1; /* Membiarkan input mengambil ruang yang tersisa */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px; /* Jarak antara input dan tombol */
+}
+
+/* Gaya untuk tombol submit */
+#submit-review {
+    padding: 10px 15px;
+    border: none; 
+    border-radius: 5px;
+    background-color: #ffb200;
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+#submit-review:hover {
+    background-color: #d0d0d0; 
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .product-info {
+        flex-direction: column; /* Stack the image and details vertically */
+    }
+
+    #product-image {
+        width: 100%; /* Ensure image scales properly on smaller screens */
+        margin-right: 0; /* Remove right margin when stacked */
+        margin-bottom: 20px; /* Add space between image and details */
+    }
+}
+

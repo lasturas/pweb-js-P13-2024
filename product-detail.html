@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Produk</title>
+    <link rel="stylesheet" href="product-detail.css"> <!-- Link ke CSS Anda -->
+</head>
+<body>
+    <div class="product-detail-container">
+        <button id="back-button">Kembali</button>
+        <h1 id="product-title"></h1>
+        <div class="product-info">
+            <img id="product-image" src="" alt="Gambar Produk">
+            <div class="product-details">
+                <p id="product-price"></p>
+                <p id="product-description"></p>
+                <button id="add-to-cart-btn">Tambah ke Keranjang</button>
+            </div>
+        </div>
+        <h2>Ulasan:</h2>
+        <div id="product-reviews"></div>
+
+        <!-- Form untuk menulis ulasan -->
+        <div class="review-form">
+            <input type="text" id="review-input" placeholder="Tulis ulasan di sini...">
+            <button id="submit-review">Submit</button>
+        </div>
+    </div>
+    <script src="product-detail.js"></script> <!-- Link ke JS untuk halaman detail -->
+</body>
+</html>
